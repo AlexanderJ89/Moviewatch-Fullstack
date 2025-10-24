@@ -74,13 +74,13 @@ npm run dev
 ## 🖼️ Skärmavbilder
 
 ### Huvudsida
-![Huvudsida](Client/src/assets/screenshots/homepage.png)
+![Huvudsida](client/src/assets/screenshots/Homepage.png)
 
 ### Logga in
-![Detaljsida](Client/src/assets/screenshots/login.png)
+![Detaljsida](client/src/assets/screenshots/Login.png)
 
 ### Watchlist
-![Watchlist](Client/src/assets/screenshots/watchlist.png)
+![Watchlist](client/src/assets/screenshots/Watchlist.png)
 
 ### Watched
-![Detaljsida](Client/src/assets/screenshots/watched.png)
+![Detaljsida](client/src/assets/screenshots/Watched.png)
