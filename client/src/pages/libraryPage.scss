@@ -1,0 +1,15 @@
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); // 4 kolumner
+  gap: 2rem;
+  justify-items: center;
+  padding: 1rem;
+
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr); // 2 kolumner på t.ex. iPad
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr; // 1 kolumn på mobil
+  }
+}

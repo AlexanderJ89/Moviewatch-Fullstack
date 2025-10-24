@@ -1,0 +1,35 @@
+.watched-page {
+  background-color: black;
+  min-height: 100vh;
+
+  h2 {
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .watched-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); // 4 kolumner
+    gap: 2rem;
+    justify-items: center;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .watched-gallery {
+      grid-template-columns: repeat(3, 1fr); // 3 kolumner på surfplatta
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .watched-gallery {
+      grid-template-columns: repeat(2, 1fr); // 2 kolumner på mobil
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .watched-gallery {
+      grid-template-columns: 1fr; // 1 kolumn på liten mobil
+    }
+  }
+}

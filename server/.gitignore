@@ -1,0 +1,9 @@
+# Dependencies
+node_modules/
+
+# Miljövariabler (känslig info)
+.env
+
+# Loggfiler
+logs
+*.log
