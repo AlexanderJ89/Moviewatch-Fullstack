@@ -29,32 +29,6 @@ Projektet använder **TheMovieDB API** för att hämta information om kommande, 
 
 ---
 
-## 📂 Projektstruktur
-
-Moviewatch-Fullstack/
-│
-├── Client/
-│   ├── src/
-│   ├── public/
-│   ├── .env.example
-│   ├── .gitignore
-│   ├── package.json
-│   └── vite.config.js
-│
-├── Server/
-│   ├── config/
-│   ├── controllers/
-│   ├── middlewares/
-│   ├── models/
-│   ├── routes/
-│   ├── utils/
-│   ├── validators/
-│   ├── swaggerConfig.js
-│   ├── server.js
-│   ├── .env.example
-│   ├── .gitignore
-│   └── package.json
-
 # 🧑‍💻 Kom igång lokalt
 
 
